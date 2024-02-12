@@ -1,0 +1,47 @@
+//colors
+$primary-color: #e67e22;
+$tint-1: #fae5d3;
+$tint-2: #fdf2e9;
+
+$shadow-1: #cf711f;
+$shadow-2: #eb984e;
+$shadow-3: #45260a;
+
+$black-1: #333;
+$black-2: #555;
+$black-3: #888;
+$black-4: #ddd;
+$black-5: #6f6f6f;
+
+//font
+$font-family: "Rubik", sans-serif;
+
+$font-size-1: 1.8rem;
+$font-size-2: 1.6rem;
+$font-size-3: 1.4rem;
+$font-size-4: 1.2rem;
+
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+
+$line-height-1: 1.6;
+
+//distances
+$distance-1: 9.6rem;
+$distance-2: 2.4rem;
+$distance-3: 1.6rem;
+$distance-4: 1.2rem;
+
+$img-size-1: 33rem;
+$img-size-2: 28rem;
+
+//border radius
+$border-radius-smaller: 9px;
+$border-radius-larger: 11px;
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
